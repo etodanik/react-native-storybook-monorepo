@@ -1,4 +1,5 @@
-import { SafeAreaView } from 'react-native'
+import { ThemeProvider } from '@emotion/react'
+import useTheme from '../src/hooks/useTheme'
 
 export const parameters = {
   actions: {
@@ -13,9 +14,13 @@ export const parameters = {
 }
 
 export const decorators = [
-  Story => (
-    <SafeAreaView>
-      <Story />
-    </SafeAreaView>
-  )
+  Story => {
+    const theme = useTheme()
+
+    return (
+      <ThemeProvider theme={theme}>
+        <Story />
+      </ThemeProvider>
+    )
+  }
 ]
