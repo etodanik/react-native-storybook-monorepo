@@ -2,7 +2,7 @@
   "private": true,
   "name": "design",
   "version": "1.0.0",
-  "main": ".storybook/index.js",
+  "main": "index.ts",
   "scripts": {
     "prestart": "sb-rn-get-stories",
     "start": "expo start",

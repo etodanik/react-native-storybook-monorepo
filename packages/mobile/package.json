@@ -6,7 +6,8 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
-    "ios": "expo start --ios"
+    "ios": "expo start --ios",
+    "lint": "eslint ."
   },
   "dependencies": {
     "design": "*",
@@ -17,5 +18,9 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
+  },
+  "peerDependencies": {
+    "@emotion/native": "*",
+    "@emotion/react": "*"
   }
 }
