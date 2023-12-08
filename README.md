@@ -20,4 +20,4 @@ This repository accompanies the **Medium article _"A cleaner approach for Storyb
 The application project is organized within a monorepo structure and consists of the following packages:
 
 - **[App Package](packages/mobile)**: This is the mobile app itself and relies on other packages within the project.
-- **[Design Package](packages/design)**: Contains UI component and run the Storybook app.
+- **[Design Package](packages/design)**: Contains UI components and host the Storybook app.
