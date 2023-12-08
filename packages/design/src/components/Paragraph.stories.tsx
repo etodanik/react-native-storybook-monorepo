@@ -1,4 +1,5 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react-native'
+
 import Paragraph from './Paragraph'
 
 const meta: ComponentMeta<typeof Paragraph> = {

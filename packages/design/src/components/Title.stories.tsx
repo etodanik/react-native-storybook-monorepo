@@ -1,4 +1,5 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react-native'
+
 import Title from './Title'
 
 const meta: ComponentMeta<typeof Title> = {
